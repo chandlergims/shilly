@@ -8,10 +8,10 @@ const DocsPage: React.FC = () => {
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-[#fbfcff] mb-4">Overview</h2>
         <p className="text-[#a8aab0] mb-4">
-          Shilly is a decentralized social marketing platform specifically designed for the Solana ecosystem. 
-          We connect memecoin projects with influential users (Shillers) who can promote Solana tokens to their followers. 
-          The platform facilitates authentic word-of-mouth marketing for Solana memecoins by rewarding users for 
-          successful promotions and engagements.
+          Shilly is a decentralized platform where users earn rewards for sharing profitable token recommendations in the Solana ecosystem.
+          Our platform enables individuals to monetize their market insights by connecting token projects with potential investors.
+          Users who consistently provide valuable, profitable shills can build their reputation and earn substantial rewards
+          based on the performance of their recommendations.
         </p>
         <div className="bg-[#24272e] border border-[#282b33] rounded-lg p-4 mb-6">
           <div className="flex items-center mb-2">
@@ -81,25 +81,17 @@ const DocsPage: React.FC = () => {
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-[#fbfcff] mb-4">Becoming a Shiller</h2>
         <div className="bg-[#24272e] border border-[#282b33] rounded-lg p-6">
-          <h3 className="text-xl font-bold text-[#97ef83] mb-3">Application Process</h3>
+          <h3 className="text-xl font-bold text-[#97ef83] mb-3">Getting Started</h3>
           <p className="text-[#a8aab0] mb-4">
-            To become a Shiller, you need to meet certain criteria and go through a verification process:
+            Becoming a Shiller is simple and requires no KYC verification. Anyone can join and start earning immediately.
           </p>
           
-          <h4 className="text-lg font-semibold text-[#fbfcff] mb-2">Requirements:</h4>
-          <ul className="list-disc pl-6 text-[#a8aab0] space-y-1 mb-4">
-            <li>Minimum follower count (platform-defined threshold)</li>
-            <li>Verification of identity</li>
-            <li>Agreement to platform terms and conditions</li>
-            <li>Completed profile with all required information</li>
-          </ul>
-          
-          <h4 className="text-lg font-semibold text-[#fbfcff] mb-2">Verification Process:</h4>
+          <h4 className="text-lg font-semibold text-[#fbfcff] mb-2">Simple Process:</h4>
           <ol className="list-decimal pl-6 text-[#a8aab0] space-y-2">
-            <li>Submit your application through your profile settings</li>
-            <li>Platform administrators review your application</li>
-            <li>You may be asked to provide additional verification</li>
-            <li>Once approved, you gain access to Shiller-specific features</li>
+            <li>Register an account with your preferred username</li>
+            <li>Connect your Solana wallet to receive rewards</li>
+            <li>Start creating shills and building your following</li>
+            <li>Earn rewards based on the performance of your recommendations</li>
           </ol>
         </div>
       </section>
@@ -132,25 +124,20 @@ const DocsPage: React.FC = () => {
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-[#fbfcff] mb-4">Reward System</h2>
         <div className="bg-[#24272e] border border-[#282b33] rounded-lg p-6">
-          <h3 className="text-xl font-bold text-[#97ef83] mb-3">Payment Structure</h3>
-          <p className="text-[#a8aab0] mb-2">Shillers earn rewards based on:</p>
+          <h3 className="text-xl font-bold text-[#97ef83] mb-3">Performance-Based Rewards</h3>
+          <p className="text-[#a8aab0] mb-2">Shillers earn rewards based on the quality and profitability of their recommendations:</p>
           <ul className="list-disc pl-6 text-[#a8aab0] space-y-1 mb-6">
-            <li><strong>Base Rate:</strong> Fixed payment for completing a shill</li>
-            <li><strong>Performance Bonuses:</strong>
-              <ul className="list-disc pl-6 text-[#a8aab0] space-y-1 mt-1">
-                <li>Engagement rate (likes, comments, shares)</li>
-                <li>Click-through rate</li>
-                <li>Conversion rate</li>
-                <li>Follower count and quality</li>
-              </ul>
-            </li>
+            <li><strong>Profit Sharing:</strong> Earn a percentage based on how well your recommended tokens perform</li>
+            <li><strong>Engagement Rewards:</strong> Additional earnings based on follower engagement with your shills</li>
+            <li><strong>Consistency Bonuses:</strong> Regular profitable recommendations increase your earning potential</li>
+            <li><strong>Reputation Building:</strong> Successful shills help build your brand in the crypto space</li>
           </ul>
           
           <h3 className="text-xl font-bold text-[#97ef83] mb-3">Payment Methods</h3>
           <ul className="list-disc pl-6 text-[#a8aab0] space-y-1">
-            <li>Cryptocurrency payments (primary method)</li>
-            <li>Points system that can be converted to cryptocurrency</li>
-            <li>Potential for fiat currency options in the future</li>
+            <li>Direct cryptocurrency payments to your connected wallet</li>
+            <li>No minimum withdrawal thresholds</li>
+            <li>Instant settlement of earned rewards</li>
           </ul>
         </div>
       </section>
