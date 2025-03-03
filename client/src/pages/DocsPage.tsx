@@ -3,12 +3,12 @@ import React from 'react';
 const DocsPage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
-      <h1 className="text-3xl font-bold text-[#97ef83] mb-8">Shillster Documentation</h1>
+      <h1 className="text-3xl font-bold text-[#97ef83] mb-8">Shilly Documentation</h1>
       
       <section className="mb-10">
         <h2 className="text-2xl font-bold text-[#fbfcff] mb-4">Overview</h2>
         <p className="text-[#a8aab0] mb-4">
-          Shillster is a decentralized social marketing platform specifically designed for the Solana ecosystem. 
+          Shilly is a decentralized social marketing platform specifically designed for the Solana ecosystem. 
           We connect memecoin projects with influential users (Shillers) who can promote Solana tokens to their followers. 
           The platform facilitates authentic word-of-mouth marketing for Solana memecoins by rewarding users for 
           successful promotions and engagements.
@@ -23,7 +23,7 @@ const DocsPage: React.FC = () => {
           <p className="text-[#a8aab0] text-sm">
             Solana's high throughput, low transaction costs, and vibrant memecoin ecosystem make it the perfect 
             blockchain for our platform. With transaction speeds of up to 65,000 TPS and costs as low as $0.00025 per 
-            transaction, Shillster can operate efficiently while providing the best experience for both token creators 
+            transaction, Shilly can operate efficiently while providing the best experience for both token creators 
             and promoters.
           </p>
         </div>
@@ -180,19 +180,19 @@ const DocsPage: React.FC = () => {
         <h2 className="text-xl font-bold text-[#97ef83] mb-3">Need Help?</h2>
         <p className="text-[#a8aab0] mb-4">
           If you have any questions or need assistance, please contact our support team at 
-          <a href="mailto:support@shillster.app" className="text-[#97ef83] ml-1 hover:underline">
-            support@shillster.app
+          <a href="mailto:support@shilly.app" className="text-[#97ef83] ml-1 hover:underline">
+            support@shilly.app
           </a>
         </p>
         <p className="text-[#a8aab0]">
           Follow us on Twitter: 
           <a 
-            href="https://x.com/shillsterdotapp" 
+            href="https://x.com/shillydotapp" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-[#97ef83] ml-1 hover:underline"
           >
-            @shillsterdotapp
+            @shillydotapp
           </a>
         </p>
       </div>

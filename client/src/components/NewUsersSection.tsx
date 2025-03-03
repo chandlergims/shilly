@@ -54,7 +54,9 @@ const NewUsersSection = ({
           </div>
           <div>
             <div className="text-[#fbfcff]">@{user.handle}</div>
-            <div className="text-[#a8aab0] text-xs">Joined 2/25/2025</div>
+            <div className="text-[#a8aab0] text-xs">
+              Joined {user.createdAt ? new Date(user.createdAt).toLocaleDateString() : 'Recently'}
+            </div>
           </div>
           {/* Only show follow button if the user is a shiller and not the current user */}
           {user.role === 'shiller' && (!currentUserId || user._id !== currentUserId) && (

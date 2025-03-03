@@ -10,6 +10,7 @@ export interface User {
   points?: number;
   currentStreak?: number;
   token?: string;
+  createdAt?: string;
 }
 
 export interface FollowRequest {
