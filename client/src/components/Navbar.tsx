@@ -55,7 +55,7 @@ const Navbar = () => {
               </span>
             </Link>
             <a 
-              href="https://x.com/shillpaydotapp" 
+              href="https://x.com/ShillPayApp" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-[#97ef83] hover:text-[#97ef83]/80 transition-colors duration-200"

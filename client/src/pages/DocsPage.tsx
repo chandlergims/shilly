@@ -174,12 +174,12 @@ const DocsPage: React.FC = () => {
         <p className="text-[#a8aab0]">
           Follow us on Twitter: 
           <a 
-            href="https://x.com/shillpaydotapp" 
+            href="https://x.com/ShillPayApp" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-[#97ef83] ml-1 hover:underline"
           >
-            @shillpaydotapp
+            @ShillPayApp
           </a>
         </p>
       </div>
