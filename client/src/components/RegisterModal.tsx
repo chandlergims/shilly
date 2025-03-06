@@ -166,7 +166,7 @@ const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
         
         <div className="flex items-center justify-center mb-6">
           <div className="h-px bg-[#97ef83]/30 flex-grow"></div>
-          <h2 className="text-2xl font-bold text-[#97ef83] px-4 text-center font-mono tracking-wider">Register_for_Shillers</h2>
+          <h2 className="text-2xl font-bold text-[#97ef83] px-4 text-center font-mono tracking-wider">Register_for_ShillPay</h2>
           <div className="h-px bg-[#97ef83]/30 flex-grow"></div>
         </div>
 

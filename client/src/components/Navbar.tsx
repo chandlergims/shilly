@@ -39,7 +39,7 @@ const Navbar = () => {
       <nav className="bg-[#1b1d22] text-[#fbfcff] py-3 border-b border-[#282b33] shadow-md">
         <div className="container mx-auto flex justify-between items-center px-6">
           <Link to="/" className="text-xl font-bold text-[#fbfcff] flex items-center font-mono">
-            <img src="/logo.png" alt="Shillster Logo" className="h-8" />
+            <img src="/logo.png" alt="ShillPay Logo" className="h-8" />
           </Link>
 
           <div className="flex items-center space-x-4">
@@ -55,7 +55,7 @@ const Navbar = () => {
               </span>
             </Link>
             <a 
-              href="https://x.com/shillydotapp" 
+              href="https://x.com/shillpaydotapp" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-[#97ef83] hover:text-[#97ef83]/80 transition-colors duration-200"

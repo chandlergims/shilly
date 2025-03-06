@@ -48,7 +48,7 @@ const LoginModal = ({ isOpen, onClose }: LoginModalProps) => {
         
         <div className="flex items-center justify-center mb-6">
           <div className="h-px bg-green-500/30 flex-grow"></div>
-          <h2 className="text-2xl font-bold text-green-500 px-4 text-center font-mono tracking-wider">Login_to_Shillers</h2>
+          <h2 className="text-2xl font-bold text-green-500 px-4 text-center font-mono tracking-wider">Login_to_ShillPay</h2>
           <div className="h-px bg-green-500/30 flex-grow"></div>
         </div>
 
