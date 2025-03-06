@@ -32,6 +32,7 @@ const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
   const [handle, setHandle] = useState('');
   const [password, setPassword] = useState('');
   const [walletAddress, setWalletAddress] = useState('');
+  const [role, setRole] = useState<'user' | 'shiller'>('user');
   const [profilePicture, setProfilePicture] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const { register, state, clearError } = useAuth();
@@ -136,6 +137,7 @@ const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
     formData.append('handle', handle);
     formData.append('password', password);
     formData.append('walletAddress', walletAddress);
+    formData.append('role', role);
     if (profilePicture) {
       formData.append('profilePicture', profilePicture);
     }
@@ -234,6 +236,35 @@ const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
             {walletError && (
               <p className="text-red-500 text-sm mt-1">{walletError}</p>
             )}
+          </div>
+
+          <div>
+            <label className="block text-green-500 mb-2 font-mono">
+              Account_Type
+            </label>
+            <div className="flex space-x-4">
+              <div 
+                className={`flex-1 p-3 border ${role === 'user' ? 'border-green-500 bg-green-500/10' : 'border-gray-700 bg-gray-800'} rounded cursor-pointer transition-colors`}
+                onClick={() => setRole('user')}
+              >
+                <div className="flex items-center">
+                  <div className={`w-4 h-4 rounded-full mr-2 ${role === 'user' ? 'bg-green-500' : 'bg-gray-600'}`}></div>
+                  <span className="text-white">Regular User</span>
+                </div>
+                <p className="text-gray-400 text-xs mt-1">Follow shillers and view content</p>
+              </div>
+              
+              <div 
+                className={`flex-1 p-3 border ${role === 'shiller' ? 'border-green-500 bg-green-500/10' : 'border-gray-700 bg-gray-800'} rounded cursor-pointer transition-colors`}
+                onClick={() => setRole('shiller')}
+              >
+                <div className="flex items-center">
+                  <div className={`w-4 h-4 rounded-full mr-2 ${role === 'shiller' ? 'bg-green-500' : 'bg-gray-600'}`}></div>
+                  <span className="text-white">Shiller</span>
+                </div>
+                <p className="text-gray-400 text-xs mt-1">Create shills and earn rewards</p>
+              </div>
+            </div>
           </div>
 
           <div>

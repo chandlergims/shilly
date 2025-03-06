@@ -16,7 +16,7 @@ const generateToken = (id: string): string => {
 // @access  Public
 export const registerUser = async (req: Request, res: Response): Promise<void> => {
   try {
-    const { handle, password, walletAddress } = req.body;
+    const { handle, password, walletAddress, role } = req.body;
 
     // Check if user already exists
     const userExists = await User.findOne({ handle });
@@ -37,6 +37,7 @@ export const registerUser = async (req: Request, res: Response): Promise<void> =
       password,
       walletAddress,
       profilePicture,
+      role: role === 'shiller' ? 'shiller' : 'user', // Ensure role is valid
     });
 
     if (user) {
